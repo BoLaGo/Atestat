@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-lg:hover {
+  cursor: pointer;
+}
+
+ .btn-lg .btn-primary:hover{
+  background-color: #0b49a7;
+}
+
+
+/* Meniu */
+
+#meniu {
+  margin-top: 1rem;
+  background: #333;
+  color: #fff;
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: auto;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 1rem;
+}
+
+#meniu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#meniu h1.logo {
+  float: left;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  margin: 0;
+}
+
+#meniu ul {
+  list-style: none;
+  float: right;
+  margin-bottom: 0px;
+}
+
+#meniu ul li {
+  float: left;
+}
+
+#meniu ul li a {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+#meniu ul li a:hover, #meniu ul li a.curent{
+  color:rgb(194, 194, 194);
+}
+
+/* Video */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+
+}
+/* Pagina de Start */
+
+
+.start-body {
+  /* background-size: cover; */
+  height: 100vh;
+  color: #eff1e4;
+  background: url('../img/wp2757874.gif') center no-repeat;
+  background-size: cover;
+  
+}
+
+.start-title h1{
+  font-size: 7.5rem;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.start-menu {
+  margin: 0, auto;
+  text-align: center;
+}
+
+.start-menu h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.start-menu .btn {
+  text-decoration: none;
+  color: rgba(20, 20, 20, 0.637);
+  background-image: url('../img/45degreee_fabric.png');
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin: 5rem;
+  border-style: solid;
+  border-color:rgb(79, 79, 79);
+  font-size: 1.5rem;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+}
+
+.start-menu .btn:hover {
+  background: #f0ece9;
+}
+
+#content {
+  position: relative;
+}
+
+/* Pagina Principala */
+
+.index-body {
+  background-image: url('../img/45degreee_fabric.png') ;
+  height: 345vh;  
+}
+
+.info-part {
+  background-color: rgba(126, 126, 126, 0.301);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-bottom-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.info-part h1.titlu {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.info-continut p {
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 5%;  
+  padding-right: 5%; 
+  display: flex;
+}
+
+.info-continut img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+  margin-top: 2%;
+}
+
+.info-part h1{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  height: 150px;
+  padding-bottom: 2rem;
+}
+
+.info-part a {
+  color: #333;
+  font-size: 3.5rem;
+}
+
+/* BlackJack */
+
+.container-5 {
+  border: 3px solid black;
+  margin: 2rem auto;
+  background: url(https://raw.githubusercontent.com/Mrn28/mypic/main/project2/images/blackjack-background.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  width: 75%;
+  text-align: center;
+}
+.flex-box-container-1, .flex-box-container-result-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1,
+.flex-blackjack-row-2, .flex-blackjack-row-3 {
+  display: flex;
+  border-top: 3px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1px solid black;
+  height: 280px;
+  flex: 1;
+}
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+}
+
+#your-box, #dealer-box{
+  height: auto;
+}
+
+#your-box img, #dealer-box img {
+  max-height: auto;
+  max-width: auto;
+
+}
